@@ -9002,7 +9002,7 @@ const issues = [
 ];
 var issuesWithUpdatedApiUrl = issues.map((issue) => {
   var newUrl = issue.url.replace('api.github.com', 'api-v2.github.com');
-  return Object.assign({}, issue, {url: NewUrl});
+  return Object.assign({}, issue, {url: newUrl});
 });
 
 // var issuesWithUpdatedApiUrl = issues.map( issue => {
