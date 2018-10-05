@@ -9010,5 +9010,3 @@ var ccommentCountAcrossIssues = issues.map( (issue) => {
 }).reduce( (commentTot, count) => {
   return commentTot + count
 }, 0)
-
-
