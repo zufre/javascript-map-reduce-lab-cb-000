@@ -9011,4 +9011,3 @@ var issuesWithUpdatedApiUrl = issues.map( issue => {
       url: newUrl
     });
 });
-
