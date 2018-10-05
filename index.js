@@ -9005,7 +9005,7 @@ var issuesWithUpdatedApiUrl = issues.map((issue) => {
   return Object.assign({}, issue, {url: newUrl});
 });
 
-var ccommentCountAcrossIssues = issues.map( (issue) => {
+var commentCountAcrossIssues = issues.map( (issue) => {
   return issue.comments_count;
 }).reduce( (commentTot, count) => {
   return commentTot + count
