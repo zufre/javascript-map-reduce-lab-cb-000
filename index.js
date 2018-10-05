@@ -9009,6 +9009,5 @@ var commentCount = issues.map( (issue) => {
   return issue.comments_count;
 })
 var commentCountAcrossIssues = commentCount.reduce( (commentTot, count) => {
-  return commentTot + count
-  
-})
+  return commentTot + count  
+}, 0)
