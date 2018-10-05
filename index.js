@@ -9001,6 +9001,6 @@ const issues = [
   }
 ];
 var issuesWithUpdatedApiUrl = issues.map(function(issue) {
-  var newUrl = issue["url"].replace('api.github.com', 'api-v2.github.com');
+  var newUrl = issue.url.replace('api.github.com', 'api-v2.github.com');
   return Object.assign({}, issue, {url: NewUrl});
 });
