@@ -9000,14 +9000,14 @@ const issues = [
     "url": "https://api.github.com/repos/learn-co-curriculum/js-donut-lab/issues/2"
   }
 ];
-// var issuesWithUpdatedApiUrl = issues.map(function(issue) {
-//   var newUrl = issue.url.replace('api.github.com', 'api-v2.github.com');
-//   return Object.assign({}, issue, {url: NewUrl});
-// });
-
-var issuesWithUpdatedApiUrl = issues.map( issue => {
-    var newUrl = issue.url.replace( 'api.github.com', 'api-v2.github.com')
-    return Object.assign({}, issue, {
-      url: newUrl
-    });
+var issuesWithUpdatedApiUrl = issues.map(function(issue) {
+  var newUrl = issue.url.replace('api.github.com', 'api-v2.github.com');
+  return Object.assign({}, issue, {url: NewUrl});
 });
+
+// var issuesWithUpdatedApiUrl = issues.map( issue => {
+//     var newUrl = issue.url.replace( 'api.github.com', 'api-v2.github.com')
+//     return Object.assign({}, issue, {
+//       url: newUrl
+//     });
+// });
